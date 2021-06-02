@@ -1,0 +1,17 @@
+main: com.jacksonjude.ScoreboardExport.ScoreboardExportPlugin
+name: ScoreboardExport
+version: 1.0
+api-version: 1.15
+author: JJCooley
+description: Export scoreboard to table
+commands:
+   scexport:
+      description: Export / Import scoreboards
+      usage: /scexport <import | export> [table path]
+      aliases: [sce]
+      permission: scexport.admin
+      permission-message: You cannot export scoreboards
+permissions:
+   scexport.admin:
+      description: Export / Import scoreboards
+      default: op
